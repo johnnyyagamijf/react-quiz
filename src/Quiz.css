@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #70473e;
+}
+
+.container {
+    max-width: 600px;
+    height: 300px;
+    margin: 20px auto 0;
+    padding: 0;
+    align-items: center;
+    border: solid 2px brown;
+    box-shadow: 10px 10px 10px 5px black;
+    background-color: #dad3c1;
+    margin-top: 150px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container .sub-container {
+    width: 550px;
+    height: 250px;
+    margin: 20px auto 0;
+    border: 1px solid brown;
+    margin: 20px;
+    background-color: #dfd5c0;
+}
+
+.container .sub-container article {}
+
+.container .sub-container article img {
+    float: left;
+    width: 150px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 13px;
+    margin-right: 13px;
+    border: solid 1px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 5px black;
+}
+
+.container .sub-container .quest {
+    float: right;
+    border: 1px solid brown;
+    width: 350px;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+    height: 170px;
+    border-radius: 12px;
+    background-color: #dfd4c1;
+    padding: 1px;
+}
+
+.container .sub-container .quest label {
+    margin: 30px;
+}
+
+.container .sub-container .quest div {
+    margin: 20px 33px;
+    width: 280px;
+    height: 32px;
+    text-align: center;
+    background-color: #bcae91;
+}
+
+.container .sub-container .quest div:hover {
+    opacity: 0.3;
+}
+
+.container .sub-container .quest div p {
+    line-height: 35px;
+}
+
